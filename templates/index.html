@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Recorder & Shazam Clone</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Audio Fingerprint Recorder</h1>
+
+        <div class="controls">
+            <button id="recordButton" class="record-btn">Start Recording</button>
+            <button id="stopButton" class="stop-btn" disabled>Stop Recording</button>
+            <div id="timer" class="timer">00:00</div>
+        </div>
+
+        <div class="visualizer-container">
+            <canvas id="visualizer"></canvas>
+        </div>
+
+        <div class="actions">
+            <button id="identifyButton" class="action-btn" disabled>Identify Song</button>
+            <div class="add-to-db">
+                <input type="text" id="songName" placeholder="Song name" disabled>
+                <button id="addToDbButton" class="action-btn" disabled>Add to Database</button>
+            </div>
+        </div>
+
+        <div id="result" class="result-container"></div>
+
+        <div class="audio-container">
+            <audio id="audioPlayback" controls></audio>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/recorder.js') }}"></script>
+</body>
+</html>
