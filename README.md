@@ -2,6 +2,9 @@
 
 This project is an audio fingerprinting application inspired by Shazam. It allows users to record audio, visualize the waveform in real time, and identify songs by matching audio fingerprints against a database. The application also supports adding new songs to the fingerprint database.
 
+![image](https://github.com/user-attachments/assets/9812ccf3-962e-4a51-8291-61955d35ade7)
+
+
 ## Features
 
 - **Audio Recording:** Capture audio from your device's microphone.
