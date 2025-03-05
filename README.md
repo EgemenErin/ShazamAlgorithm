@@ -81,5 +81,3 @@ This project is licensed under the [MIT License](LICENSE).
 This project was inspired by audio recognition technologies like Shazam and aims to provide a simple demonstration of audio fingerprinting and matching.
 
 ---
-
-Feel free to adjust any section as your project evolves or based on additional details in your code files.
